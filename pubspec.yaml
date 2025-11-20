@@ -1,0 +1,22 @@
+name: mortar_app
+description: MORTAR - mobile mesh editor (frontend only)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  path_provider: ^2.0.12
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/placeholder_cube.png
+    - assets/images/brick.png
+    - assets/images/sphere.png
+    - assets/images/gallery_house.png
